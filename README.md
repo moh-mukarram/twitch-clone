@@ -1,4 +1,6 @@
-
+<body>
+<img src="https://user-images.githubusercontent.com/43513353/190924639-14c848ba-47e6-4fc5-926b-deebe011d426.png" style="width:100px;">
+</body>
 Twitch clone built using ReactJS and NodeJS.
 
 ### To build and run the project
