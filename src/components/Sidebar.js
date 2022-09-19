@@ -14,7 +14,7 @@ const Sidebar = ({children}) => {
 
             <div className='first-section'>
                 {isOpen && <h2 className='for-you'>For You</h2>}
-                <div className='collapse'>
+                <div className='collapse-btn'>
                     {isOpen ? <TbArrowBarLeft size={20} onClick={toggle}/> : <TbArrowBarRight size={20} onClick={toggle}/>}
                     
                 </div>
