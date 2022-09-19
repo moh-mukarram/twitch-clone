@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @font-face {
   font-family: 'Roobert';
   font-style: normal;
   font-weight: 400;
-  src: url('https://raw.githubusercontent.com/nitrowo/roobert-cdn/master/RoobertRegular.woff%27') format('woff');
+  src: url('https://raw.githubusercontent.com/nitrowo/roobert-cdn/master/RoobertRegular.woff') format('woff');
 }
+
 
 .Navbar {
     height: 51px;
@@ -68,19 +69,8 @@
     justify-content: flex-end;
 }
 
-.Navright > h9 {
-    margin: 5px;
-    display: flex;
-    height: 30px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 6px;
-    background-color: #3a3a3d;
-    text-align: center;
-}
-
 .Navright > i {
-    margin: 9px;
+    margin: 15px;
     margin-right: 20px;
 }
 
@@ -94,7 +84,7 @@
     color: white;
 }
 
-.Navright > .Navlogin > h9 {
+.Navright > .Navlogin > h5 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
@@ -102,10 +92,10 @@
     background-color: #3a3a3d;
     border-radius: 4px;
     margin-left: 10px;
-
+    font-size: 15px;
 }
 
-.Navright > .Navsign > h9 {
+.Navright > .Navsign > h5 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 3px;
@@ -113,5 +103,5 @@
     background-color: #772ce8;
     border-radius: 4px;
     margin-left: 10px;
-
+    font-size: 15px;
 }

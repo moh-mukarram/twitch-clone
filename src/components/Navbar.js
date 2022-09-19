@@ -14,17 +14,17 @@ const Navbar = () => {
       <div className="Navmiddle">
         <input type="text" placeholder="search"/>
         <div className="searchlogo">
-        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        <i className="fa-sharp fa-solid fa-magnifying-glass"></i>
         </div>
       </div>
       <div className="Navright">
         <div className='Navlogin'>
-          <h9>Log In</h9>
+          <h5>Log In</h5>
         </div>
         <div className="Navsign">
-          <h9>Sign Up</h9>
+          <h5>Sign Up</h5>
         </div>
-        <i class="fa-regular fa-user"></i>
+        <i className="fa-regular fa-user"></i>
         </div> 
     </div>
 
