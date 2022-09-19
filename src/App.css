@@ -1,4 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Roobert';
+  font-style: normal;
+  font-weight: 400;
+  src: url('https://raw.githubusercontent.com/nitrowo/roobert-cdn/master/RoobertRegular.woff') format('woff');
+}
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.sidebar{
+  background-color: #1e1f22;
+  color: white;
+  height: 100vh;
+}
+
+.main-container{
+  display: flex;
+}
+
+.first-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 12px;
+}
+
+.for-you{
+  font-size: 19px;
+  line-height: 21px;
+  font-family: Roobert;
+}
+
+.collapse{
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.sec-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px 12px;
+}
+
+.rec-channel{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.sort{
+  margin-right: 8px;
 }
