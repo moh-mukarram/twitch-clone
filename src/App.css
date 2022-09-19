@@ -7,7 +7,6 @@
   src: url('https://raw.githubusercontent.com/nitrowo/roobert-cdn/master/RoobertRegular.woff') format('woff');
 }
 
-
 *{
   margin: 0px;
   padding: 0px;
@@ -22,6 +21,7 @@
 
 .main-container{
   display: flex;
+  position: fixed;
 }
 
 .first-section{
@@ -37,7 +37,7 @@
   font-family: Roobert;
 }
 
-.collapse{
+.collapse-btn{
   margin-right: 8px;
   cursor: pointer;
 }
