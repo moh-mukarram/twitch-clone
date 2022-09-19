@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="Navleft">
         <img className="logo"
-          src="https://pngimg.com/uploads/twitch/twitch_PNG6.png"
+          src="https://pngimg.com/uploads/twitch/twitch_PNG6.png" alt='logo'
         />
         <h2>Browse</h2>
         <i className="fa-solid fa-ellipsis-vertical"></i>
