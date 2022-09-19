@@ -21,6 +21,7 @@
 
 .main-container{
   display: flex;
+  position: fixed;
 }
 
 .first-section{
