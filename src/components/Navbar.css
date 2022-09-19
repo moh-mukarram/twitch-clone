@@ -15,8 +15,9 @@
     border-bottom: 1px solid black;
     background-color: #18181b;
     z-index: 100;
-    position: static;
+    position: sticky;
     top: 0;
+
 }
 
 .Navleft > h2 {
